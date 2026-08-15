@@ -1,0 +1,17 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env/config (never commit credentials)
+.env
+*.local.sql
+config.local.*
+
+# DB dumps/backups
+*.dump
+*.bak
